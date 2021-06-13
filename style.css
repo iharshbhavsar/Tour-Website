@@ -1,0 +1,842 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 10px 0px 0px 0px;
+    background: url(img7.jpg);
+    background-position: top center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    background-size:100% 100%;
+	font-family:Montserrat;
+	
+}
+
+
+/****** Make sure they have this rule below!! */
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 70%;
+    height: auto;
+    background-color:#f6f6f6;
+	background-size:cover;
+    margin: 0px auto 0px auto;
+	font-family:Montserrat;
+	
+    /* This is the code I use to center a block level element but NOT to center content inside of it */
+}
+
+#hot{
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:3%;
+}
+
+
+table{
+width: 95%;
+border-collapse: collapse;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5%;
+line-height:auto;
+
+}
+.prce{
+	text-align:left;
+	font-weight:bold;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+background: #eee;
+width:auto;
+margin:auto;
+}
+
+th {
+background: #333;
+color: white;
+font-weight: bold;
+text-align:center;
+border: 1px solid #ccc;
+padding: 6px;
+width:auto;
+}
+tr{
+	font-size:1.09em;
+}
+
+.cntry{
+	text-align:center;
+	
+}
+td{
+padding: 6px;
+border: 1px solid #ccc;
+text-align: left;
+width:auto;
+margin:auto;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+}
+#limited{
+	text-align:center;
+	margin-bottom:3%;
+}
+#more a{
+	color:black;
+}
+
+#logobox {
+    width: 100%;
+	background-color:#191919;
+	background-image:url(logo.png);
+	background-size:13%;
+	background-repeat:no-repeat;
+    height: 80%;
+	background-position:right;
+    text-align: auto;
+	display:flex;
+	
+}
+#logo{
+	
+	margin-left:3%;
+	color:lightblue;
+	font-size:2.5em;
+	text-align:right;
+}
+
+nav {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+   /* background-color: #909900; */
+   background-color:#709de8;
+    float: left;
+	border-bottom-style:none;
+	/*border-color:darkgraygray; */
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+nav a {
+    color: black;
+    font-size: 120%;
+    font-family: times new roman;
+   margin-left:5%;
+   margin-right:5%;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: greenyellow;
+	
+}
+
+#slider {
+    width: 100%;
+    height: 500px;
+    background: url(nnn.jpg);
+	padding-top: 160px;
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#slidertour {
+    width: 100%;
+    height: 500px;
+    background: url(sea.jpg);
+	padding-top: 160px;
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+#slidercontent {
+    width: 40%;
+    height: 60%;
+    padding-top: 2%;
+    margin-left:5%;
+    color: white;
+    text-align: left;
+	font-family: sans-serif;
+	text-decoration: transparent;
+}
+#slidercontenttour {
+    width: 100%;
+    height: 60%;
+    padding-top: 2%;
+    margin-left:0;
+    color: white;
+    text-align: center;
+	font-family: sans-serif;
+	text-decoration: transparent;
+}
+#slidercontenttour h1{
+	font-size:3em;
+}
+#slidercontenttour a{
+	color:white;
+}
+#tourmain1{
+	width:100%;
+	display:flex;
+	height:auto;
+	margin-top:4%;
+	
+}
+#tour1{
+	background-image:url(spain.jpg);
+	width:45%;
+	background-size:100% 100%;
+	height:auto;
+	margin-left:4%;
+	box-shadow:2px 2px;
+}
+#tour11{
+	width:40%;
+	height:auto;
+	margin-left:6%;
+	padding-bottom:6%;
+}
+#tour11 h3{
+	margin-left:5%;
+}
+#buy1{
+	width:26%;
+	text-align:center;
+	margin-left:5%;
+	background-color:lightgrey;
+	height:auto;
+}
+
+#tourmain2{
+	width:100%;
+	display:flex;
+	height:auto;
+	margin-top:5%;
+}
+#buy2{
+	width:26%;
+	text-align:center;
+	margin-left:5%;
+	background-color:lightgrey;
+}
+#tour2{
+	background-image:url(img1.jpg);
+	box-shadow:2px 2px;
+	width:45%;
+	background-size:100% 100%;
+	height:auto;
+	margin-left:4%;
+}
+#tour22{
+	width:40%;
+	height:auto;
+	margin-left:6%;
+	padding-bottom:6%;
+	
+}
+#tour22 h3{
+	margin-left:5%;
+}
+#tour11 h2{
+	text-decoration:underline;
+}
+#tour22 h2{
+	text-decoration:underline;
+}
+#tour33 h2{
+	text-decoration:underline;
+}
+
+#tourmain3{
+	width:100%;
+	display:flex;
+	height:auto;
+	margin-top:5%;
+	margin-bottom:2%;
+}
+#tour3{
+	background-image:url(cave.jpg);
+	width:45%;
+	background-size:100% 100%;
+	height:auto;
+	margin-left:4%;
+	box-shadow:2px 2px;
+	
+}
+#buy3{
+	background-color:lightgrey;
+	width:26%;
+	text-align:center;
+	margin-left:5%;
+	
+}
+#tour33{
+	width:40%;
+	height:auto;
+	margin-left:6%;
+	padding-bottom:6%;
+}
+#tour33 h3{
+	margin-left:5%;
+}
+p{
+	font-size:1.28em;
+}
+#more{
+	display:flex;
+	text-align:center;
+	height:40px;
+	width:20%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:6%;
+	margin-top:2%;
+}
+#more h3{
+	padding-left:5%;
+}
+#aa{
+	width:16%;
+	margin-right:7%;
+	background-color:lightgrey;
+}
+#aa h3{
+	padding-bottom:5%;
+	
+	margin-top:15%;
+}
+#bb{
+	width:16%;
+	margin-right:7%;
+	background-color:lightgrey;
+}
+#bb h3{
+	margin-top:15%;
+	
+}
+#cc{
+	
+	margin-right:14%;
+	width:16%;
+	background-color:lightgrey;
+}
+#cc h3{
+	margin-top:15%;
+}
+#ddd{
+	
+	width:25%;
+	background-color:lightgrey;
+}
+#ddd h3{
+	margin-top:9%;
+}
+#signup{
+	background-image:url(arial.jpg);
+	width:100%;
+	height:450px;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	padding-top:7%;
+	text-align:center;
+	
+}
+#signup h1{
+	text-align:center;
+	color:white;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	text-decoration:underline;
+}
+
+#signup h2{
+	text-align:center;
+	color:white;
+	width:60%;
+	padding-top:3.8%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#signup a{
+	color:white;
+	font-size:1.2em;
+
+}
+
+#local{
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	width:100%;
+	padding-bottom:2px;
+	display:flex;
+	margin-top:0px;
+	background-color:#262729;
+	height:250px;
+	color:#deaf58;
+}
+#local a{
+	color:white;
+}
+#local h3{
+	display:inline;
+	margin-left:12%;
+margin-right:7%;	
+}
+#local p{
+	padding-left:5%;
+	display:inline;
+}
+#para{
+	width:20%;
+	display:block;
+	text-align:center;
+	height:auto;
+	margin-left:15%;
+	margin-top:2%;
+}
+#para p{
+	padding-left:4%;
+	letter-spacing:0.8px;
+}
+#para h3{
+	text-align:center;
+	text-decoration:underline;
+	font-size:1.4em;
+}
+.sun{
+	font-weight:bold;
+}
+#link{
+	width:15%;
+	margin-left:30%;
+	height:25%;
+	margin-top:2.5%;
+	
+}
+#link h3{
+	text-decoration:underline;
+	margin-left:35%;
+	font-size:1.4em;
+}
+#link ul{
+	font-size:1.2em;
+	margin-left:25%;
+	margin-right:auto;
+	letter-spacing:1px;
+	line-height:30px;
+	
+}
+#services{
+	width:100%;
+	background-color:#f6f6f6;
+	
+}
+#srvc{
+
+}
+#services ul{
+	color:#353535;
+}
+
+#servc{
+	padding-bottom:3%;
+	padding-top:3%;
+	margin-left:auto;
+	letter-spacing:0.8px;
+	font-size:1.4em;
+	margin-right:auto;
+	width:45%;
+	line-height:32px;
+	font-family:georgia;
+	
+	/*color:#94c8f1;*/
+	
+}
+
+
+#logo h1{
+    font-family: georgia;
+    margin: 0px 0px 0px 0px;
+    font-size: 32px;
+    
+}
+
+#slidercontent h4 {
+    width: 580px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: greenyellow;
+}
+#slidercontent a{
+	color:white;
+}
+#slidercontent h1{
+    font-family: georgia;
+    
+}
+
+#mainbody {
+    width: 950px;
+    height: 460px;
+    padding: 0px 2px 2px 80px;
+    
+}
+
+
+#maindiv{
+	width:92%;
+	display:flex;
+	height:auto;
+	text-align:center;
+	margin-bottom:4%;
+	background-color:#f5f5f5;
+}
+#ot1{
+	width:100%;
+	margin-left:8%;
+}
+#ot1 img{
+	width:100%;
+	Height:400px;
+	margin-bottom:2%;
+	box-shadow:2px 2px;
+}
+
+#ot2{
+	margin-left:8%;
+	width:100%;
+	
+}
+#ot2 img{
+	margin-bottom:2%;
+	width:100%;
+	box-shadow:2px 2px;
+	Height:400px;
+}
+
+#ot3{
+	margin-left:8%;
+	width:100%;
+}
+#ot3 img{
+	width:100%;
+	box-shadow:2px 2px;
+	margin-bottom:2%;
+	Height:400px;
+	
+}
+
+#ourtours{
+	margin-left:auto;
+	margin-right:auto;
+	color:black;
+	width:100%;
+	padding-bottom:4%;
+}
+#ourtours h3{
+	text-align:center;
+	
+}
+#ourtours a{
+	color:darkblue;
+}
+
+#ourtours h2 {
+    text-align: center;
+    font-family: georgia;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 40px 70px 25px 0px;
+
+}
+
+#ourtoursimg h2 {
+    text-align:center;
+	color:black;
+}
+
+#ourtoursimg h3{
+	width:100%;
+	text-align:center;
+}
+#utr{
+	display:inline;
+	text-align:left;
+color:black;
+    font-family:Montserrat;
+	width:20%;
+	margin-left:5%;
+}
+#mia{
+	display:inline;
+	text-align:center;
+	margin-left:5%;
+color:black;
+    font-family:Montserrat;
+	width:20%;
+	font-size:120%;
+}
+#lib{
+	display:inline;
+	text-align:right;
+	margin-left:5%;
+	margin-right:5%;
+color:black;
+    font-family:Montserrat;
+	width:20%;
+}
+#ourtoursimg{
+	width:100%;
+}
+#ourtoursimg img {
+margin-left:9.5%;
+margin-right:auto;
+	height:60%;
+	width:20%;
+}
+#link a{
+	text-decoration:none;
+	color:#deaf58;
+}
+
+
+#leftrecent {
+    width: 220px;
+    height: 260px;
+    border: 3px solid #b7b7b7;
+    float: left;
+    background-color: mediumpurple;
+    color: black;
+}
+
+#leftrecent h5 {
+    text-align: left;
+    font-family: georgia;
+    font-size: 8.9px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin: 4px 4px 4px 4px;
+}
+
+#centerrecent {
+    width: 220px;
+    height: 260px;
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+    border: 3px solid #b7b7b7;
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+}
+
+#centerrecent h5 {
+    text-align: left;
+    font-family: georgia;
+    font-size: 8.9px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin: 4px 4px 4px 4px;
+}
+
+#rightrecent {
+    width: 220px;
+    height: 260px;
+    float: left;
+    border: 3px solid #b7b7b7;
+    background-color: mediumpurple;
+    color: white;
+}
+
+#rightrecent h5 {
+
+    text-align: left;
+    font-family: georgia;
+    font-size: 8.9px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin: 4px 4px 4px 4px;
+}
+
+footer {
+    width: 70%;
+    height: 2%;
+    background-color: #476fb1;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0.5%;
+}
+
+
+/**************************
+ABOUT PAGE STYLES 
+***************************/
+
+#internalheading {
+    width: 960px;
+    height: 65px;
+    background-color: #f4f1e3;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+#internalheading h1 {
+    margin-left: 40px;
+    font-family: arial;
+    font-size: 30px;
+    color: #000;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+#mainbody_nature {
+    width: 960px;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+#mainbody_nature h2 {
+    font-family: arial;
+    font-size: 15px;
+    color: #000;
+		padding-left:10px;
+	padding-right:10px;
+
+	
+}
+
+#mainbody_nature p {
+    
+    font-size: 1.2em;
+    color: #000;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#mainbody_nature img {
+    margin: 7.0px;
+    height: 260px;
+    width: 440px;
+}
+
+
+
+
+/**************************
+GET INVOLVED PAGE STYLES 
+***************************/
+
+#mainbody_getinvolved {
+    width: 960px;
+    height: 920px;
+}
+
+
+
+
+/**************************
+AT THE FAIR PAGE STYLES 
+***************************/
+
+#mainbody_packages {
+    width: 960px;
+    height: 920px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+ul {
+    margin: 4px 0px 0px 14px;
+    padding: 0;
+}
+
+/**************************
+SHOPS 
+***************************/
+
+#internalheading h1 {
+    margin-left: 40px;
+    font-family: georgia;
+    font-size: 30px;
+    color: #000;
+    font-weight: lighter;
+    padding-top: 15px;
+}
+
+#mainbody_temples {
+    width: 960px;
+    height: 620px;
+    padding: 20px;
+}
+
+#mainbody_temples h2 {
+
+    margin-top: 20px;
+    font-family: georgia;
+    font-size: 20px;
+}
+
+#mainbody_temples p {
+
+    margin-top: 20px;
+    font-size: 15px;
+	font-size:1.2em;
+
+}
+
+#mainbody_temples div{
+	height:9000px;
+}
+
+
+#mainbody_temples img {
+    margin: 7.0px;
+    height: 260px;
+    width: 420px;
+}
+
+div#mainbody_temples
+{
+	height:565px;
+}
+
+
+
+
+
+/**************************
+CONTACT PAGE STYLES 
+***************************/
+
+#mainbody_contactus {
+    width: 960px;
+    height: 920px;
+}
